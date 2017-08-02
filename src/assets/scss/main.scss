@@ -8,6 +8,7 @@ body{
     background-position: center bottom;
 }
 .contenedor-p{
+    display: none;
     margin-top: 10em;
     background-color:rgba(0,0,0,0.3);
     color: white;
@@ -21,4 +22,12 @@ body{
     div{
         padding: 2em;
     }    
+}
+.contenedor-s{
+    margin-top: 10em;
+    background-color:rgba(0,0,0,0.3);
+    color: white;
+}
+.img-sem{
+    width: 3em;
 }
