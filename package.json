@@ -1,0 +1,30 @@
+{
+  "name": "test-dafy",
+  "version": "1.0.0",
+  "description": "Ver los estado del clima diario y proximos 7 dias",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ferlargut/test-dafy.git"
+  },
+  "keywords": [
+    "Api",
+    "express"
+  ],
+  "author": "Ferlargut",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ferlargut/test-dafy/issues"
+  },
+  "homepage": "https://github.com/Ferlargut/test-dafy#readme",
+  "devDependencies": {
+    "browser-sync": "^2.18.13",
+    "gulp": "^3.9.1",
+    "gulp-browserify": "^0.5.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0"
+  }
+}
