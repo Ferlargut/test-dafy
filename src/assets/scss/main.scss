@@ -1,0 +1,24 @@
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-image: url("/assets/img/viento2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+}
+.contenedor-p{
+    margin-top: 10em;
+    background-color:rgba(0,0,0,0.3);
+    color: white;
+}
+.img-clima{
+    width: initial
+}
+.sem-pre{
+    background-color:rgba(255,255,255,0.3);
+    height: 7em;
+    div{
+        padding: 2em;
+    }    
+}
