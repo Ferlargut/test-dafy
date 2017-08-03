@@ -2,9 +2,9 @@ var cargarPagina = function () {
     datosClima();
 };
 var datosClima = function () {
-    var url = "https://api.darksky.net/forecast/09f373036464e6e2fe859e8b8464c7bd/19.4142776,-99.1622213/";
+    var url = "http://api.openweathermap.org/data/2.5/weather?q=Mexico&APPID=7d4db2a2badda552e7a541b1f368e702";
     $.getJSON(url ,function (data) {
-    
+    console.log(data);
     
 });
 var xhr = new XMLHttpRequest();
@@ -13,9 +13,9 @@ xhr.onreadystatechange = function (e) {
 	if (this.readyState === 4) {
 		if (this.status === 200) {
 			var response = JSON.parse(this.response);
-			var pokemons = response.results;
+            console.log(response);    
 			// var squads = JSON.parse(this.response);	
-			 crearPokemons(clima);
+			
 		}
 		
 	}
